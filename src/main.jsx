@@ -24,7 +24,7 @@ const router = createBrowserRouter(
                   ? "pending"
                   : isActive
                   ? "underline font-bold underline-offset-4 text-blue-500"
-                  : "cursor-pointer hover:underline underline-offset-4"
+                  : "cursor-pointer hover:underline underline-offset-4 text-white"
               }
             >
               Binary Visualizer (32-bit)
@@ -36,7 +36,7 @@ const router = createBrowserRouter(
                   ? "pending"
                   : isActive
                   ? "underline font-bold underline-offset-4 text-blue-500"
-                  : "cursor-pointer hover:underline underline-offset-4"
+                  : "cursor-pointer hover:underline underline-offset-4 text-white"
               }
             >
               Binary Operations Visualizer(32-bit)
